@@ -168,7 +168,7 @@ margin-right: 15%;
     border-radius: 2px;
     text-shadow:2px 0px 5px  #ffff;
     background: none;
-	color: white;;
+	color: white;
 }
 
 .btn-search:hover{
@@ -190,6 +190,7 @@ form{
     border-radius: 20px;
     padding: 0.5%;
     box-shadow: 0 0 3px white;
+    font-size: 10px;
 }
 .search-bar::after{
  border-color: black;
