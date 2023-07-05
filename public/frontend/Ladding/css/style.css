@@ -1,0 +1,215 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,100;1,300;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    padding: 2% auto;
+}
+
+header{
+    display: block;
+  padding: 1%;
+  box-shadow: 0 0 5px rgb(56, 56, 56);
+}
+
+.menu{
+    text-shadow: 0 0 5px rgb(173, 173, 173);
+    color: #ffff;
+}
+
+
+.list-rigth{
+    display: flow-root;
+    user-select: none;
+    padding: 1%;
+
+}
+
+ul{
+    margin: 0;
+
+    list-style: none;
+}
+li{
+    float: right;
+    padding: 1.5%;
+}
+.btn{
+ 
+    display: flow-root;
+    float: right;
+    display: block;
+}
+.fMenu:hover{
+    border-radius: 2px;
+    background-color: aliceblue;
+    cursor: pointer;
+    color:rgb(5, 5, 5);
+}
+ .secondMenu:hover{
+    border-radius: 2px;
+    background-color: aliceblue;
+    cursor: pointer;
+    color:rgb(5, 5, 5);
+}
+ .thirdMenu:hover{
+    border-radius: 2px;
+    background-color: aliceblue;
+    cursor: pointer;
+    color:rgb(5, 5, 5);
+}
+.btn:hover{
+    cursor: pointer;
+    color:rgb(44, 44, 44);
+    background-color: #ffff;
+    text-shadow: 0 0 1.5px rgb(58, 58, 58);
+}
+
+.btn{
+    display: flex;
+    margin-left:20px ;
+	padding: 1%;
+	cursor: pointer;
+	outline: inherit;
+	border: 1px solid white;
+	font: inherit;
+    box-shadow: 0 0 2px rgb(173, 173, 173);
+    border-radius: 2px;
+    text-shadow:2px 0px 5px  #ffff;
+    background: none;
+	color: inherit;
+}
+
+
+.Logo{
+    border-left: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width:690px ) {
+    .Logo{
+     font-size:1em;
+    }
+}
+@media (max-width:690px ) {
+li{
+    border-left: none;
+    border-bottom: 1px solid #ffff;
+}
+.Logo{
+    border-bottom: none;
+}
+}
+@media (max-width:519px ) {
+.Logo{
+ float: none;
+ text-align: center;
+ font-size: 100%;
+}
+button,
+ .fMenu,
+ .secondMenu ,
+ .thirdMenu{
+    display: none;
+}
+
+
+
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    color: #ffff;
+    margin-top: 3%;
+    padding-left: 13%;
+
+}
+
+.content p{
+    padding:2%;
+    margin-left:5% ;
+}
+a{
+    color: white;
+}
+.content-image{
+    float: right;
+margin-right: 15%;
+    padding: 0%;
+    color: #ffff;
+}
+
+.btn-search{
+    display: flex;
+    margin-left:20px ;
+	padding: 1%;
+	cursor: pointer;
+	outline: inherit;
+	border: 1px solid white;
+	font: inherit;
+    box-shadow: 0 0 2px rgb(173, 173, 173);
+    border-radius: 2px;
+    text-shadow:2px 0px 5px  #ffff;
+    background: none;
+	color: white;;
+}
+
+.btn-search:hover{
+    cursor: pointer;
+    color:rgb(44, 44, 44);
+    background-color: #ffff;
+    text-shadow: 0 0 1.5px rgb(58, 58, 58);
+    
+}
+
+form{
+    margin-left: 9% ;
+    display: flex;
+}
+.search-bar{
+    color: white;
+    background:none ;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0.5%;
+    box-shadow: 0 0 3px white;
+}
+.search-bar::after{
+ border-color: black;
+}
+input::placeholder {
+    padding:7px;
+    color: rgb(209, 197, 197);
+  }
+  footer{
+    box-shadow: 0 0 5px rgb(56, 56, 56);
+    width: 100%;
+    height:5%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  
+  @media (max-width:617px) {
+    body{
+        font-size: small;
+    }
+  }
